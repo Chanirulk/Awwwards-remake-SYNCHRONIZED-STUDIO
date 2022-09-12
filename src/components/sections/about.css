@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@font-face {
+    font-family: synco;
+    src: url(/src/assets/font/EditorCondensed-Light.woff2);
+}
+@font-face {
+    font-family: richo;
+    src: url(/src/assets/font/rische-demo.woff2);
+}
+.oval {
+  width: 200px;
+  height: 140px;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 50%;
+  transform: rotate(90deg);
+  position: absolute;
+  top: -200px;
+  left: 320px;
+}
+.ovl-text-one{
+    position: absolute;
+    color: rgb(224, 224, 224);
+    font-size: 0.7em;
+    font-family: richo;
+    top: -220px;
+    left: 415px;
+    text-transform: uppercase;
+}
+.oval-two {
+  width: 40px;
+  height: 30px;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 50%;
+  transform: rotate(90deg);
+  position: absolute;
+  top: -190px;
+  left: 402px;
+}
+.ovl-text-two{
+    position: absolute;
+    color: rgb(224, 224, 224);
+    font-size: 0.6em;
+    font-family: richo;
+    top: -185px;
+    left: 413px;
+    text-transform: uppercase;
+}
+.ovl-text-three{
+    position: absolute;
+    color: rgb(224, 224, 224);
+    font-size: 0.7em;
+    font-family: richo;
+    top: -145px;
+    left: 395px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.ovl-text-four{
+    position: absolute;
+    color: rgb(224, 224, 224);
+    font-size: 0.7em;
+    font-family: richo;
+    top: -90px;
+    left: 393px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 12px;
+}
+.ovl-text-five-ligh{
+    position: absolute;
+    color: rgb(182, 211, 136);
+    font-size: 0.7em;
+    font-family: richo;
+    top: -65px;
+    left: 400px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 12px;
+}
+.sun-teo{
+    position: absolute;
+    height: auto;
+    width: 200px;
+    left: 590px;
+    top: 100px;
+    -webkit-animation:spin 6s linear infinite;
+    -moz-animation:spin 6s linear infinite;
+    animation:spin 6s linear infinite;
+}
+.sun-teo-two{
+    position: absolute;
+    height: auto;
+    width: 200px;
+    left: 590px;
+    top: 100px;
+    -webkit-animation:spin 3s linear infinite;
+    -moz-animation:spin 3s linear infinite;
+    animation:spin 3s linear infinite;
+}
+.sun-teo-three{
+    position: absolute;
+    height: auto;
+    width: 200px;
+    left: 590px;
+    top: 100px;
+    -webkit-animation:spin 1s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+    animation:spin 1s linear infinite;
+}
+.sun-teo-four{
+    position: absolute;
+    height: auto;
+    width: 200px;
+    left: 590px;
+    top: 100px;
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+}
+.just{
+    position: absolute;
+    color: rgb(224, 224, 224);
+    font-size: 5em;
+    font-family: synco;
+    transform: rotate(90deg);
+    left: 569px;
+    top: 400px;
+}  
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@font-face {
+    font-family: synco;
+    src: url(/src/assets/font/EditorCondensed-Light.woff2);
+}
+@font-face {
+    font-family: richo;
+    src: url(/src/assets/font/rische-demo.woff2);
+}
+.slide-cover-one{
+  position: absolute;
+  background-color: whitesmoke;
+  height: 700px;
+  width: 600px;
+  left: 380px;
+}
+.slide-cover-one:hover{
+  transition:  0.6s ease-in-out;
+  background-color: rgb(138, 137, 136);
+}
+.cover-one{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 400px;
+  width: 300px;
+}
+.cover-num-one{
+  position: absolute;
+  font-family: synco;
+  font-size: 4em;
+  color: black;
+  right: 10px;
+  top: -20px;
+}
+.cover-title-one{
+  position: absolute;
+  color: black;
+  font-size: 6em;
+  font-family: synco;
+  top: 420px;
+  left: 100px;
+  line-height: 90px;
+}
+.cover-des-one{
+  position: absolute;
+  color: black;
+  font-size: 0.8em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  top: 650px;
+  left: 200px;
+  line-height: 12px;
+} 
+.slide-cover-two{
+  position: absolute;
+  background-color: whitesmoke;
+  height: 700px;
+  width: 600px;
+  left: 380px;
+  top: 750px;
+}
+.slide-cover-two:hover{
+  transition:  0.6s ease-in-out;
+  background-color: rgb(180, 218, 171);
+}  
+.slide-cover-three{
+  position: absolute;
+  background-color: whitesmoke;
+  height: 700px;
+  width: 600px;
+  left: 380px;
+  top: 1500px;
+}
+.slide-cover-three:hover{
+  transition:  0.6s ease-in-out;
+  background-color: rgb(191, 202, 165);
+}   
+.slide-cover-four{
+  position: absolute;
+  background-color: whitesmoke;
+  height: 700px;
+  width: 600px;
+  left: 380px;
+  top: 2250px;
+}
+.slide-cover-four:hover{
+  transition:  0.6s ease-in-out;
+  background-color: rgb(245, 185, 150);
+}
+.slide-cover-five{
+  position: absolute;
+  background-color: whitesmoke;
+  height: 700px;
+  width: 600px;
+  left: 380px;
+  top: 3000px;
+}
+.slide-cover-five:hover{
+  transition:  0.6s ease-in-out;
+  background-color: rgb(125, 142, 190);
+}

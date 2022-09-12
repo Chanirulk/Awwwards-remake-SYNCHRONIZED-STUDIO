@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@font-face {
+    font-family: synco;
+    src: url(/src/assets/font/EditorCondensed-Light.woff2);
+}
+@font-face {
+    font-family: richo;
+    src: url(/src/assets/font/rische-demo.woff2);
+}
+.small-cli{
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: synco;
+    color: rgb(187, 187, 187);
+    line-height: 15px;
+} 
+.cielce{
+    position: absolute;
+    height: 100px;
+    width: auto;
+    left: 350px;
+    top: -30px;
+    -webkit-animation:spin 5s linear infinite;
+    -moz-animation:spin 5s linear infinite;
+    animation:spin 5s linear infinite;
+}
+.cielce-one{
+    position: absolute;
+    height: 200px;
+    width: auto;
+    left: 300px;
+    top: 150px;
+    -webkit-animation:spin 5s linear infinite;
+    -moz-animation:spin 5s linear infinite;
+    animation:spin 5s linear infinite;
+}
+.my-link{
+    position: absolute;
+    color: white;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    left: 380px;
+    top: 370px; 
+}
+.my-link:hover{
+    color: rgb(108, 145, 108);
+    text-decoration: none;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(-360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(-360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(-360deg); 
+        transform:rotate(-360deg); 
+    } 
+}
+.box-one-our{
+    position: absolute;
+    height: 30px;
+    width: 500px; 
+    left: 800px;
+    border-bottom: 1px solid white;
+}
+.box-two-our{
+    position: absolute;
+    height: 30px;
+    width: 500px; 
+    left: 800px;
+    top: 30px;
+    border-bottom: 1px solid white;
+}
+.box-three-our{
+    position: absolute;
+    height: 30px;
+    width: 500px; 
+    left: 800px;
+    top: 60px;
+    border-bottom: 1px solid white;
+}
+.box-four-our{
+    position: absolute;
+    height: 30px;
+    width: 500px; 
+    left: 800px;
+    top: 90px;
+    border-bottom: 1px solid white;
+}
+.title-our-one{
+    position: absolute;
+    left: 600px;
+    font-size: 3em;
+    color: white;
+    font-family: richo;
+    top: -80px;
+    left: 800px;
+}
+.des-our{
+    color: white;
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.title-our-two{
+    position: absolute;
+    left: 600px;
+    font-size: 3em;
+    color: white;
+    font-family: richo;
+    top: 200px;
+    left: 800px;
+}
+.box-five-our{
+    position: absolute;
+    height: 30px;
+    width: 500px; 
+    left: 800px;
+    top: 270px;
+    border-bottom: 1px solid white;
+}
+.box-six-our{
+    position: absolute;
+    height: 30px;
+    width: 500px; 
+    left: 800px;
+    top: 600px;
+    border-bottom: 1px solid white;
+}
+.box-seven-our{
+    position: absolute;
+    height: 30px;
+    width: 500px; 
+    left: 800px;
+    top: 630px;
+    border-bottom: 1px solid white;
+}
+.box-eight-our{
+    position: absolute;
+    height: 30px;
+    width: 500px; 
+    left: 800px;
+    top: 660px;
+    border-bottom: 1px solid white;
+}
+.title-our-three{
+    position: absolute;
+    left: 600px;
+    font-size: 3em;
+    color: white;
+    font-family: richo;
+    top: 500px;
+    left: 800px;
+}

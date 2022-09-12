@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@font-face {
+    font-family: synco;
+    src: url(/src/assets/font/EditorCondensed-Light.woff2);
+}
+@font-face {
+    font-family: richo;
+    src: url(/src/assets/font/rische-demo.woff2);
+}
+.awwwards{
+  position: absolute;
+  font-size: 7em;
+  color: grey;
+  font-family: richo;
+  font-weight: bold;
+  left: 10px;
+}
+.rede{
+  position: absolute;
+  font-size: 7em;
+  color: grey;
+  font-family: richo;
+  font-weight: bold;
+  top: 220px;
+  left: 890px;
+}
+.user{
+  position: absolute;
+  font-size: 7em;
+  color: grey;
+  font-family: richo;
+  font-weight: bold;
+  left: 10px;
+  top: 370px;
+}
+.oval-faq{
+  width: 200px;
+  height: 140px;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 50%; 
+  position: absolute; 
+  top: 200px;
+  left: 550px; 
+}
+.ans{
+  position: absolute;
+  font-size: 5em;
+  text-transform: uppercase;
+  top: -12px;
+  left: 15px;
+  color: grey;
+  font-family: richo;
+  font-weight: 550;
+}

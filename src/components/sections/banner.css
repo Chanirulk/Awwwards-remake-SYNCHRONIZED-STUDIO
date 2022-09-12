@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@font-face {
+    font-family: synco;
+    src: url(/src/assets/font/EditorCondensed-Light.woff2);
+}
+@font-face {
+    font-family: richo;
+    src: url(/src/assets/font/rische-demo.woff2);
+}
+.sun-baner{
+    position: absolute;
+    height: auto;
+    width: 500px;
+    left: 450px;
+    opacity: 0.4;
+    top: -60px;
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+.sele-work{
+    position: absolute;
+    font-size: 10em;
+    text-transform: uppercase;
+    font-family: synco;
+    color: rgb(224, 224, 224);
+    text-align: center;
+    line-height: 130px;
+    left: 415px;
+    top: 200px;
+}

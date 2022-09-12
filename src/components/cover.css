@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@font-face {
+    font-family: synco;
+    src: url(/src/assets/font/EditorCondensed-Light.woff2);
+}
+@font-face {
+    font-family: richo;
+    src: url(/src/assets/font/rische-demo.woff2);
+}
+.head-titl-one{
+    font-size: 9em;
+    color: rgb(224, 224, 224);
+    font-family: richo;
+    font-weight: 500;
+    top: -10px;
+    left: 240px;
+    position: absolute;
+}
+.head-titl-two{
+    font-size: 10em;
+    color: rgb(224, 224, 224);
+    font-family: richo;
+    font-weight: 500;
+    top: 110px;
+    left: 80px;
+    position: absolute;
+}
+.head-titl-three{
+    font-size: 9em;
+    color: rgb(224, 224, 224);
+    font-family: richo;
+    font-weight: 500;
+    top: 265px;
+    left: 500px;
+    position: absolute;
+}
+.head-titl-four{
+    font-size: 8em;
+    color: rgb(224, 224, 224);
+    font-family: richo;
+    font-weight: 500;
+    top: 415px;
+    left: 900px;
+    position: absolute;
+}
+.logo{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    height: auto;
+    width: 120px;
+} 
+.visual-aid { 
+	font-size: 4em;
+	height: 1.2em;
+	background: #CCCCCC;
+	width: 50%;
+	margin: 5px auto;
+	position: absolute;
+    font-family: synco;
+}.marquee { 
+  padding: 1.5rem 0;
+  width: 100vw;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  margin-top: -1.5rem;
+}  
+.mart {
+    transform: translateX(0vw);
+    animation: marquee 50s linear infinite alternate;
+
+} 
+span {
+    display: inline-block;
+}
+i {
+    margin-right: 0.5rem;
+}
+@keyframes marquee {
+    0%   { transform: translateX(0vw) }
+    100% { transform: translateX(-100vw) }
+}
+.circle{
+    position: absolute;
+    height: 200px;
+    width: auto;
+    top: 280px;
+    left: 860px;
+    -webkit-animation:spin 6s linear infinite;
+    -moz-animation:spin 6s linear infinite;
+    animation:spin 6s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+.navlinks{
+    position: absolute;
+    left: 1200px;
+    top: 300px;
+}
+li{
+    list-style: none;
+    line-height: 14px;
+    font-family: richo;
+    text-transform: capitalize;
+}
+li:hover{
+    color: rgb(182, 211, 136);
+}
+.small-des-one{ 
+    position: absolute;
+    color: rgb(176, 194, 175);
+    font-weight: 100;
+    font-size: 0.7em;
+    line-height: 13px;
+    text-transform: uppercase;
+    top: 380px;
+    left: 91px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.small-para-one{
+    position: absolute;
+    color: rgb(224, 224, 224);
+    font-weight: 100;
+    font-size: 0.7em;
+    line-height: 12px;
+    top: 445px;
+    left: 91px;
+    font-family: 'Rubik', sans-serif;
+}

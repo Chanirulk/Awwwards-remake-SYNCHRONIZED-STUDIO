@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@font-face {
+    font-family: synco;
+    src: url(/src/assets/font/EditorCondensed-Light.woff2);
+}
+@font-face {
+    font-family: richo;
+    src: url(/src/assets/font/rische-demo.woff2);
+}
+.fucn-tot{
+    height: auto;
+    width: 500px;
+    opacity: 0.6;
+    -webkit-animation:spin 5s linear infinite;
+    -moz-animation:spin 5s linear infinite;
+    animation:spin 5s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(-360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(-360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(-360deg); 
+        transform:rotate(-360deg); 
+    } 
+}
+.credit{
+    position: absolute;
+    font-family: richo;
+    font-size: 10em;
+    color: whitesmoke;
+    top: 290px;
+    left: 200px;
+}
+.credit:hover{
+    color: rgb(95, 153, 95);
+}
